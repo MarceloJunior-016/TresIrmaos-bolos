@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color-blueLight: #dce8f1;
+    --color-blueDark: #324eb3;
+    --color-body: #d9dde1;
+    --color-DarkBlue: #10133c;
+}
+body{
+    background-color: var(#ffff);
+    color: var(--color-DarkBlue);
+}
+
+.headBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 6px;
+    width: 99%;
+    height: 90px;
+    margin: 0px;
+    border-bottom: 3px solid var(--color-DarkBlue);
+    margin-bottom: 15px ;
+    background-color: var(--color-blueDark);
+}
+ul, nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px 3px;
+    margin: 10px;
+    gap: 15px;
+}
+li{
+    list-style-type: none;
+}
+.aNav{
+    color: var(--color-blueLight);
+    background-color: var(--color-blueDark);
+    border: 1px solid var(--color-blueLight);
+    border-radius: 5px;
+    padding: 6px;
+    display: block;
+    text-decoration: none;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.cards_cardapio{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    flex-wrap: wrap;
+
+    padding: 2rem;
+    margin: 10px;
+    max-width: 100%;
+    height: 100%;
+    background-color: var(--color-blueLight);
+    border: 2px solid var(--color-blueDark);
+    border-radius: 20px;
+}
+
+.card{
+    background-color: var(--color-blueLight);
+    border-radius: 10px;
+    border: none;
+    color: var(--color-DarkBlue);
+    margin: 6px;
+    padding: 10px;
+    width: 165px;
+    height: 50%;
+}
+.cardImg{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    border: 1px solid var(--color-DarkBlue);
+}
+.cardBar{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 18px;
+    color: var(--color-DarkBlue);
+}
+
+.aNav:hover{
+    color: var(--color-blueDark);
+    transition: 350ms;
+    background-color: var(--color-blueLight);
+}
+
+
+.card:hover{
+    transition: 350ms;
+    background-color: var(--color-blueDark);
+    cursor: pointer;
+}
+
+.footerBar{
+    background-color: var(--color-blueDark);
+    display: flex;
+    justify-content: center;
+    color: var(--color-body);
+    text-align: center;
+    padding: 16px 16px;
+    gap: 20px;
+}
+
+@media (max-width: 464px) {
+    .card{
+        border: 2px solid var(--color-blueDark);
+        background-color: var(--color-blueLight);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 5px;
+        width: 85%;
+        height: 70%;
+    }
+}

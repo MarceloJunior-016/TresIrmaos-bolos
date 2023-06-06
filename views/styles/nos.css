@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color-blueLight: #c1d0df;
+    --color-blueDark: #324eb3;
+    --color-body: #e9ecef;
+}
+
+body{
+    background-color: var(--color-body);
+    color: #10133c;
+}
+.headBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 6px;
+    width: 99%;
+    height: 90px;
+    border-bottom: 3px solid #10133c;
+    background-color: var(--color-blueDark);
+}
+ul, nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px 3px;
+    margin: 10px;
+    gap: 15px;
+}
+li{
+    list-style-type: none;
+}
+.aNav{
+    color: var(--color-blueLight);
+    background-color: var(--color-blueDark);
+    border: 1px solid var(--color-blueLight);
+    border-radius: 5px;
+    padding: 6px;
+    display: block;
+    text-decoration: none;
+}
+.aNav:hover{
+    color: var(--color-blueDark);
+    transition: 350ms;
+    background-color: var(--color-blueLight);
+}
+.sectionOne{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+    height: 47vh;
+
+}
+.partionOne{
+    font-size: 21px;
+    margin: 5px;
+}
+.One{
+    margin-top: 15px;
+    background-color: var(--color-blueLight);
+    border-radius: 15px;
+    border: 1px solid #324eb3;
+    padding: 20px 20px;
+    width: 360px;
+    height: 225px;
+}
+.One:hover{
+    width: 420px;
+    height: 320px;
+    background-color: #10133c;
+    border: 2px solid #324eb3;
+    border-radius: 15px;
+    color: white;
+    transition: 250ms;
+}
+main{
+   height: 110vh; 
+   border-bottom: 2px solid #10133c;
+}
+.sectionTwon{
+    margin: -5px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.Two{
+    margin: 5px;
+    color: white;
+    background-color: #324eb3;
+    border-radius: 15px;
+    border: 1px solid #10133c;
+    padding: 20px 20px;
+    width: 360px;
+    height: 225px;
+}
+.partionTwo{
+    font-size: 21px;
+    margin: 5px;
+}
+img[src="styles/settings/seloVerde.png"]{
+    width: 90px;
+    height: 90px;
+}
+.Two:hover{ 
+    width: 420px;
+    height: 320px;
+    background-color: #10133c;
+    border: 2px solid #324eb3;
+    border-radius: 15px;
+    color: white;
+    transition: 250ms;
+}
+.divP{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footerBar > h2{
+    padding: 20px;
+    background-color: var(--color-blueLight);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cardP{
+    margin-top: 20px;
+    width: 250px;
+    height: 210px;
+    padding: 10px 15px;
+    background-color: var(--color-blueLight);
+    border: 1px solid var(--color-blueDark);
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+.cardP > img{
+    width: 100%;
+    height: 90%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid var(--color-blueDark);
+}
+.cardP > h3{
+    font-size: 21px;
+}
