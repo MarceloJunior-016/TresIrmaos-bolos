@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color-blueLight: #dce8f1;
+    --color-blueDark: #324eb3;
+    --color-body: #d9dde1;
+    --color-DarkBlue: #10133c;
+}
+body{
+    background-color: var(#ffff);
+    color: var(--color-DarkBlue);
+}
+.headBar{
+    background-color: var(--color-blueDark);
+    border-bottom:1px solid var(--color-DarkBlue);
+    padding: 16px;
+    color: var(--color-body);
+} 
+a{
+    width: 4em;
+    text-align: center;
+    color: var(--color-body); 
+    text-decoration: none; 
+    display: block; 
+    padding: 6px;
+    border: 1px solid var(--color-body);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
+.cardapio{
+    width: 18rem;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.cards_cardapio{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    padding: 12px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 16rem;
+    text-align: center;
+    transition: 240ms;
+    border-radius: 10px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: #324eb3;
+}
+.cardImg{
+    align-self: center;
+    width: 80%;
+    height: 60%;
+    margin: 10px 0px 10px 0px;
+    border-radius: 05px;
+    border: 1px solid var(--color-DarkBlue);
+}
+.cardBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 5px;
+}

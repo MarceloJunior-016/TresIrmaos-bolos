@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Três Irmãos-Bolos</title>
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="./styles/cardapioStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet"> 
-    <script src="src/home.js"></script>
+    <script src="../src/home.js"></script>
 </head>
 <style>
     body{font-family: 'Quicksand', sans-serif;}
@@ -15,20 +15,18 @@
 </style>
 <body>
     <header class="headBar">
-        <h1 style="margin-left: 15px;">Três Irmãos</h1>
         <nav>
-            <ul>
-                <li><a class="aNav" href="contato.html">Contato</a></li>
-                <li><a class="aNav" href="nos.html">Sobre nós</a></li>
-            </ul>
+            <div>
+                <a href="../home.html">Voltar</a>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="promocoes">
-            <h2 style="margin: 15px;">Promoções!</h2>
+        <section class="cardapio">
+            <h2 style="margin: 15px;">Bolos</h2>
             <div class="cards_cardapio" id="cards">
                 <div class="card" id="brigadeiro" name="brigadeiro" data-s="brigadeiro" onclick="navBri()">
-                    <img src="styles/settings/brigadeiro.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/brigadeiro.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Brigadeiro</h3>
                         <div>
@@ -39,7 +37,7 @@
                 </div>
 
                 <div class="card" id="ninho" name="ninho" data-s="ninho" onclick="navNin()">
-                    <img src="styles/settings/ninho.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/ninho.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Ninho</h3>
                         <div>
@@ -50,7 +48,7 @@
                 </div>
 
                 <div class="card" id="doce_de_leite" name="doce de leite" data-s="doce de leite" onclick="navDoce()">
-                    <img src="styles/settings/doce_de_leite.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/doce_de_leite.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Doce de Leite</h3>
                         <div>
@@ -60,7 +58,7 @@
                     </div>
                 </div>
                 <div class="card" id="cenoura" name="cenoura" data-s="cenoura">
-                    <img src="styles/settings/cenoura.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/cenoura.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Cenoura</h3>
                         <div>
@@ -71,7 +69,7 @@
                 </div>
 
                 <div class="card" id="churros" name="churros" data-s="churros">
-                    <img src="styles/settings/churros.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/churros.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Churros</h3>
                         <div>
@@ -82,7 +80,7 @@
                 </div>
 
                 <div class="card" id="chocolate" name="chocolate" data-s="chocolate">
-                    <img src="styles/settings/chocolate.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/chocolate.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Chocolate</h3>
                         <div>
@@ -94,11 +92,11 @@
             </div>
         </section>
 
-        <section class="boloPote">
+        <section class="cardapio">
             <h2 style="margin: 15px;">Bolos no Pote!</h2>
             <div class="cards_cardapio" id="cards">
                 <div class="card" id="bolo" name="Sonho de Valsa" data-s="Sonho de Valsa">
-                    <img src="styles/settings/sonho_de_valsa.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/sonho_de_valsa.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Sonho de Valsa</h3>
                         <div>
@@ -109,7 +107,7 @@
                 </div>
 
                 <div class="card" id="bolo" name="Três Amores" data-s="Três Amores">
-                    <img src="styles/settings/tres_amores.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/tres_amores.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Três Amores</h3>
                         <div>
@@ -120,7 +118,7 @@
                 </div>
 
                 <div class="card" id="bolo" name="Morango" data-s="Morango">
-                    <img src="styles/settings/morango.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/morango.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Morango</h3>
                         <div>
@@ -130,7 +128,7 @@
                     </div>
                 </div>
                 <div class="card" id="bolo" name="Chocolate" data-s="Chocolate">
-                    <img src="styles/settings/pote_chocolate.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/pote_chocolate.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Chocolate</h3>
                         <div>
@@ -141,7 +139,7 @@
                 </div>
 
                 <div class="card" id="bolo" name="Cenoura" data-s="Cenoura">
-                    <img src="styles/settings/pote_cenoura.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/pote_cenoura.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Cenoura</h3>
                         <div>
@@ -152,7 +150,7 @@
                 </div>
 
                 <div class="card" id="bolo" name="Prestigio" data-s="Prestigio">
-                    <img src="styles/settings/prestigio.jpg" alt="" class="cardImg">
+                    <img src="../styles/settings/prestigio.jpg" alt="" class="cardImg">
                     <div class="cardBar">
                         <h3>Prestigio</h3>
                         <div>
@@ -163,12 +161,65 @@
                 </div>
             </div>
         </section>
-        <section class="mais">
-            <button class="Acess" id="Acess" onclick="cardapio()">Acessar cardápio</button>
-        </section>
+
+        <section class="cardapio">
+            <h2 style="margin: 15px;">Docinhos</h2>
+
+            <div class="cards_cardapio" id="cards">
+                <div class="card" id="bolo" name="Churros" data-s="Churros">
+                    <img src="./styles/imgs/Churros_doce_leite.webp" alt="" class="cardImg">
+                    <div class="cardBar">
+                        <h3>Churros</h3>
+                        <div>
+                            <p>Escolha o Sabor</p>
+                            <p style="color:green"><strong>10,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="bolo" name="Cookie" data-s="Cookie">
+                    <img src="./styles/imgs/cookie-de-chocolate.webp" alt="" class="cardImg">
+                    <div class="cardBar">
+                        <h3>Cookie</h3>
+                        <div>
+                            <p>Unidade</p>
+                            <p style="color: green;"><strong>10,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="bolo" name="sonho" data-s="sonho">
+                    <img src="./styles/imgs/mini-sonho.jpg" alt="" class="cardImg">
+                    <div class="cardBar">
+                        <h3>Mini Sonho</h3>
+                        <div>
+                            <p>Um cento</p>
+                            <p style="color:green"><strong>20,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="bolo" name="Alfajor" data-s="Alfajor">
+                    <img src="./styles/imgs/alfajores.webp" alt="" class="cardImg">
+                    <div class="cardBar">
+                        <h3>Alfajor</h3>
+                        <div>
+                            <p>Unidade</p>
+                            <p style="color:green"><strong>5,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="bolo" name="Carolina" data-s="Carolina">
+                    <img src="./styles/imgs/Carolina.jpg" alt="" class="cardImg">
+                    <div class="cardBar">
+                        <h3>Carolina</h3>
+                        <div>
+                            <p>Unidade</p>
+                            <p style="color:green"><strong>4,50</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
-    <footer class="footerBar">
-        <h3>Trabalho do itinerário</h3>
-    </footer>
 </body>
 </html>

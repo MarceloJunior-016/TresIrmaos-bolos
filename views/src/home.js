@@ -1,11 +1,15 @@
 function navBri(){
-    window.location.href = 'pages/brigadeiro.html'
+    window.location.href = './brigadeiro.html'
 }
 
 function navNin(){
-    window.location.href = 'pages/ninho.html'
+    window.location.href = './ninho.html'
 }
 
 function navDoce(){
-    window.location.href = 'pages/doceDeLeite.html'
+    window.location.href = './doceDeLeite.html'
+}
+
+function cardapio(){
+    window.location.href = './pages/cardapio.html'
 }
